@@ -252,7 +252,7 @@ class DepartmentServiceTest {
         double expectedMinSalaryByDep = Math.min(salary3, salary1);
         //тест
         Double actualEmployee = departmentService.getMinSalaryByDepId(departmentId1);
-        assertEquals(expectedMinSalaryByDep, actualEmployee);
+е        assertEquals(expectedMinSalaryByDep, actualEmployee);
         verify(employeeService).getAll();
     }
 
